@@ -21,7 +21,7 @@ distance_sensor.timing_budget = 200
 distance_sensor.start_ranging()
 
 strip_pin = board.A1 # LED clipped to A1. Change as needed for other boards
-strip_num_of_LEDs = 30 # 30 lights on a strip, Change to 20 for strands
+strip_num_of_LEDs = 20 # 30 lights on a strip, Change to 20 for strands
 strip = neopixel.NeoPixel(strip_pin, strip_num_of_LEDs, brightness=0.5, auto_write=False)
 RED = (255, 0, 0)
 BLACK = (0, 0, 0)
